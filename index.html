@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> English Vocab</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Hello, Ice Code!</h1>
+	</header>
+		
+	<main>
+		<div class="word">
+			<h5 id="word_title">Word: <u>Sample</u></h5>
+			
+			<div for="correct_answer" class="trial" style="display: flex; align-items: center;">
+				<input placeholder="Carrots">
+				<h5 id="is_correct" style="display: none;">❌</h5>
+			</div>
+			<h5 id="correct_answer" style="font-size: 1em; padding-bottom: 15px; display: none;">Correct: Banana</h5>
+
+			<button onclick="correct()"><b>Correct<b></button>
+		</div>
+
+		<div class="options">
+			<h5><u>Options</u></h5>
+			<button onclick="select(this)" style="
+				background-color: rgb(200, 200, 200);
+				width: 130px;
+				height: 32.5px;
+			">En → Fr</button>
+			<button onclick="select(this)">Fr → En</button>
+		</div>
+	</main>
+
+	<script src="words.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
