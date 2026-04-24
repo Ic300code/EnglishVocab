@@ -13,6 +13,10 @@ Edit the ```words.js``` file by adding an element like so:
 This project is for learning purpose only, and may have many issues. 
 Note: This project is not finished, and may have furthered updates.
 
+## Webpage
+
+https://ic300code.github.io/EnglishVocab/
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
